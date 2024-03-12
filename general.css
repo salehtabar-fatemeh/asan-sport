@@ -17,11 +17,11 @@ header {
     box-shadow: 0 0 5px gray;
 }
 
-header div.main-header {
-    height: 4.57rem;
+header div.super-header {
+    height: 4rem;
 }
 
-div.main-header {
+div.super-header {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -37,7 +37,7 @@ nav .main-menu {
 }
 
 
-div.main-header a {
+div.super-header a {
     text-decoration: none;
     color: rgb(0, 0, 0, 0.87);
     padding: 0 1rem;
@@ -51,7 +51,7 @@ nav ul.main-menu>li::after {
 
 
 }
-.main-header ul.main-menu>li:hover{
+.super-header ul.main-menu>li:hover{
     background-color: rgb(218, 214, 214);
     height: 2rem;
     padding: 0.8rem;
@@ -59,7 +59,7 @@ nav ul.main-menu>li::after {
     
 }
 
-.main-header a:hover {
+.super-header a:hover {
     background-color: rgb(218, 214, 214);
     height: 2rem;
     padding: 0.8rem;
@@ -106,14 +106,19 @@ button.btn2{
 
 
 
-header div.sub-header {
-    height: 7.28rem;
+header div.bottom-header {
+    height: 6rem;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
     
 }
-div.subheader a{
+div.bottom-header a{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 main {
