@@ -9,13 +9,43 @@ body{
 }
 
 header{
-    border: 1px solid gray;
+    background-color:#fff ;
+    box-shadow: 0 0 5px gray;
 }
 
 header div.main-header{
-    border: 1px solid magenta;
-    height: 56px;
-    padding: 4px 16px;
+    height: 64px;
+}
+div.main-header {
+    display: flex;
+
+}
+nav .main-menu{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+nav .main-menu>li{
+    font-weight: bold;
+   
+} 
+
+ nav .main-menu a{
+    text-decoration: none;
+    color: rgb(0,0,0,0.87);
+    padding: 0px 16px;
+}
+
+nav ul.main-menu>li::after{
+    content: " \26B6";
+    
+    
+}
+nav ul.main-menu>li:hover{
+    height: 50px;
+   background-color: rgb(218, 214, 214);
 }
 
 header div.sub-header{
@@ -24,6 +54,7 @@ header div.sub-header{
 
 main{
     border: 1px solid yellow;
+    margin-top: 30px;
 }
 
 footer{
