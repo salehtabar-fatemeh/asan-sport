@@ -1,85 +1,126 @@
-@font-face{
+@font-face {
     font-family: iranian-sans;
     src: url(Font-web/Iranian\ Sans.ttf);
 }
-
-body{
-    margin: 0;
-    font-family: iranian-sans;
+:root{
+    font-size: 16px;
 }
 
-header{
-    background-color:#fff ;
+body {
+    margin: 0;
+    font-family: iranian-sans;
+
+}
+
+header {
+    background-color: #fff;
     box-shadow: 0 0 5px gray;
 }
 
-header div.main-header{
-    height: 64px;
+header div.main-header {
+    height: 4.57rem;
 }
+
 div.main-header {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
 
 }
-nav .main-menu{
+
+nav .main-menu {
     list-style: none;
     display: inline-flex;
     justify-content: center;
     align-items: baseline;
-    
+
 }
 
 
- div.main-header a{
+div.main-header a {
     text-decoration: none;
-    color: rgb(0,0,0,0.87);
-    padding: 0px 16px;
+    color: rgb(0, 0, 0, 0.87);
+    padding: 0 1rem;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
-nav ul.main-menu>li::after{
-    content: " \26B6";
-    font-weight: bold;
+nav ul.main-menu>li::after {
+    content: "\2B9F";
     
-    
+
+
 }
-.main-header a:hover{
+.main-header ul.main-menu>li:hover{
     background-color: rgb(218, 214, 214);
-    height: 30px;
-    padding: 20px;
+    height: 2rem;
+    padding: 0.8rem;
+   
+    
 }
-button.btn1{
-    font-size: 14px;
-    width: 106px;
-    height: 34px;
-    padding: 0px 12px;
-    margin: 0px 8px;
+
+.main-header a:hover {
+    background-color: rgb(218, 214, 214);
+    height: 2rem;
+    padding: 0.8rem;
+}
+
+button.btn1 {
+    font-size: 1rem;
+    width: 9rem;
+    height: 2.4rem;
+    padding: 0 0.85rem;
+    margin: 0 0.57rem;
     box-sizing: content-box;
     color: #1976d2;
     border: 1px solid #1976d2;
-    border-radius: 28px;
+    border-radius: 2rem;
     background-color: transparent;
 }
-button.btn1:hover{
-    background-color:#d0e2f2; 
+
+button.btn1:hover {
+    background-color: #d0e2f2;
+}
+button.btn2{
+    width: 10rem;
+    height: 2.57rem;
+    padding: 0 0.9rem;
+    font-size: 1rem;
+    border-color: transparent;
+    outline: 0;
+    border-radius: 2rem;
+    color: #ffffff;
+    background-color: #1976d2;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,.14);
 }
 
+   button>span::after{
+    content: '\f234';
+    font:normal normal normal 14px/1 FontAwesome;
+    color: #ffffff;
+    font-weight: bold;
+
+   }
 
 
 
 
 
-header div.sub-header{
-    height: 102px;
+header div.sub-header {
+    height: 7.28rem;
+    display: flex;
+    
+}
+div.subheader a{
+    text-decoration: none;
+    color: black;
 }
 
-main{
+main {
     border: 1px solid yellow;
     margin-top: 30px;
 }
 
-footer{
+footer {
     border: 1px solid red;
 }
