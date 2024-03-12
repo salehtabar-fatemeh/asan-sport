@@ -1,6 +1,6 @@
 @font-face {
     font-family: iranian-sans;
-    src: url(Font-web/Iranian\ Sans.ttf);
+    src: url(Font-web/iransans.ttf );
 }
 :root{
     font-size: 16px;
@@ -23,7 +23,6 @@ header div.super-header {
 
 div.super-header {
     display: flex;
-    justify-content: flex-start;
     align-items: baseline;
 
 }
@@ -128,14 +127,22 @@ div.anchor a{
 
 }
 div.inp{
-    border: 1px solid pink;
     width: 30%;
-}
-div.inp input[type="search"]{
-    width: 3rem;
-    height: 4rem;
     margin-top: 1.25rem;
 }
+div.inp input[type="text"]{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    outline: 0;
+}
+div.inp input[type="text"]:focus{
+    outline: 0.5px solid rgb(32, 32, 216);
+}
+
 
 main {
     border: 1px solid yellow;
