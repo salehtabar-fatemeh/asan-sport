@@ -18,6 +18,8 @@ header div.main-header{
 }
 div.main-header {
     display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
 
 }
 nav .main-menu{
@@ -27,26 +29,47 @@ nav .main-menu{
     align-items: baseline;
     
 }
-nav .main-menu>li{
-    font-weight: bold;
-   
-} 
 
- nav .main-menu a{
+
+ div.main-header a{
     text-decoration: none;
     color: rgb(0,0,0,0.87);
     padding: 0px 16px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 nav ul.main-menu>li::after{
     content: " \26B6";
+    font-weight: bold;
     
     
 }
-nav ul.main-menu>li:hover{
-    height: 50px;
-   background-color: rgb(218, 214, 214);
+.main-header a:hover{
+    background-color: rgb(218, 214, 214);
+    height: 30px;
+    padding: 20px;
 }
+button.btn1{
+    font-size: 14px;
+    width: 106px;
+    height: 34px;
+    padding: 0px 12px;
+    margin: 0px 8px;
+    box-sizing: content-box;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+    border-radius: 28px;
+    background-color: transparent;
+}
+button.btn1:hover{
+    background-color:#d0e2f2; 
+}
+
+
+
+
+
 
 header div.sub-header{
     height: 102px;
