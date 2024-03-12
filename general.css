@@ -1,3 +1,11 @@
+@font-face{
+    font-family: iranian-sans;
+    src: url(Font-web/Iranian\ Sans.ttf);
+}
+body{
+    margin: 0;
+    font-family: iranian-sans;
+}
 header{
     border: 1px solid gray;
 }
