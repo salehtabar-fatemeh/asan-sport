@@ -9,6 +9,7 @@
 body {
     margin: 0;
     font-family: iranian-sans;
+    background-color: #f5f5f5;
 
 }
 
@@ -144,11 +145,11 @@ div.anchor a{
 }
 div.inp{
     width: 30%;
-    margin-top: 1.25rem;
+   
 }
-div.inp input[type="text"]{
+div.inp input[type="search"]{
     width: 20rem;
-    height: 2rem;
+    height: 2.3rem;
     padding: 0.5rem;
     font-weight: 500;
     font-size: 0.9rem;
@@ -156,8 +157,9 @@ div.inp input[type="text"]{
     outline: 0;
     border: 1px solid black;
     font-family: inherit;
+    margin-top: 2rem;
 }
-div.inp input[type="text"]:focus{
+div.inp input[type="search"]:focus{
     outline: 0.5px solid rgb(32, 32, 216);
 }
 
