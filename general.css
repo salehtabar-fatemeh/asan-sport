@@ -94,7 +94,7 @@ button.btn1 {
 button.btn1:hover {
     background-color: #d0e2f2;
 }
-button.btn2{
+button.btn2,button.btn3{
     width: 12rem;
     height: 2.57rem;
     padding: 0 0.9rem;
@@ -108,10 +108,19 @@ button.btn2{
     font-family: inherit;
 }
 
-   button>span::after{
+   button.btn2>span::after{
     content: '\f234';
     font:normal normal normal 14px/1 FontAwesome;
     color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+
+   }
+
+   button.btn3>span::after{
+    content: "\27B2";
+    color: #ffffff;
+    font-size: 1.5rem;
     font-weight: bold;
 
    }
