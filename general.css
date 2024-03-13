@@ -125,7 +125,7 @@ div.bottom-header {
     
 }
 div.anchor{
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -144,13 +144,13 @@ div.anchor a{
 
 }
 div.inp{
-    width: 30%;
+    width: 25%;
    
 }
 div.inp input[type="search"]{
-    width: 20rem;
+    width: 100%;
     height: 2.3rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     font-weight: 500;
     font-size: 0.9rem;
     border-radius: 1.2rem;
@@ -158,14 +158,21 @@ div.inp input[type="search"]{
     border: 1px solid black;
     font-family: inherit;
     margin-top: 2rem;
+    line-height: 1.25rem;
 }
 div.inp input[type="search"]:focus{
-    outline: 0.5px solid rgb(32, 32, 216);
+    outline: 0.5px solid #1976d2;
 }
 
 
-main {
+div.main-body {
     border: 1px solid yellow;
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: inherit;
+    padding: 0.75rem;
     margin-top: 30px;
 }
 
