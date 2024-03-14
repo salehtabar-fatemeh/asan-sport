@@ -233,7 +233,7 @@ footer {
     font-family: inherit;
 }
 
-div.footer{
+footer div.footer{
     width: 100%;
     border-radius: 0.4rem ;
     height: auto;
@@ -244,7 +244,7 @@ div.footer{
     background-color: #fff;
 }
 
-div.newsletters{
+footer div.footer div.newsletters{
     color: rgba(0, 0, 0, .87);
     outline: none;
     text-align: center;
@@ -254,19 +254,15 @@ div.newsletters{
     background-color: #fff;
 }
 
-div.asan-ett{
-    border: 1px solid red;
-    /* بردر وعرض ارتفاع رو بعدا بردارم */
-
-    width: 31%;
-    height: 22.9rem;
-    padding: 1.25rem;
+footer div.footer div.asan-ett{
+    width: auto;
+    height: auto;
+    padding: 0.75rem;
     background-color: #fff;
-    text-align: center;
 
 }
 
-div.logofooter{
+footer div.footer div.logofooter{
     border: 1px solid green;
     /* بردر وعرض ارتفاع رو بعدا بردارم */
 
@@ -277,7 +273,7 @@ div.logofooter{
     text-align: center;
 }
 
-form{
+div.newsletters form{
     width: 100%;
     height: auto;
     display: flex;
@@ -285,7 +281,7 @@ form{
     position: relative;
 }
 
-form input[type="text"]{
+div.newsletters form input[type="text"]{
     height: 1.6rem;
     width: 85%;
     padding: 0.5rem;
@@ -298,9 +294,10 @@ form input[type="text"]{
     border-color: transparent;
     border-radius: 3.125rem;
     outline: 0;
+    font-size: 1rem;
 }
 
-form input[type="button"]{
+div.newsletters form input[type="button"]{
     height: 3.8rem;
     font-size: 0.75rem;
     width: 5.625rem;
@@ -318,11 +315,46 @@ form input[type="button"]{
     left: 5%;
     top: 10%;
     z-index: 2;
+    font-size: 1rem;
 }
 
-form input[type="button"]:focus{
-    opacity: 0.4;   
+div.newsletters form input[type="button"]:hover{
+    opacity: 0.7;   
 }
 
-
+ div.asan-ett div.list{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+div.list>ul{
+    list-style: none;
+    min-height: 48px;
+    text-align: right;
+    padding: 1rem  4rem;
+}
+div.list a{
+   text-decoration: none;
+   line-height: 2.5;
+   align-self: center;
+   font-size: 0.8125;
+}
+ul.list1 a.f-child{   
+    color: #DD2A7B;
+}
+ul.list1 a.s-child, ul.list1 a.l-child {   
+    color: #3eabee;
+}
+ul.list2 a{
+     color: rgba(0, 0, 0, .87);;
+}
+div.list a:hover{
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+div.list a:active{
+    background-color: dimgray;
+    transition: 2s cubic-bezier(.25,.8,.5,1);
+}
+    
 
