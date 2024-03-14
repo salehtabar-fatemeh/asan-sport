@@ -248,29 +248,30 @@ footer div.footer div.newsletters{
     color: rgba(0, 0, 0, .87);
     outline: none;
     text-align: center;
-    width: auto;
+    width: 30%;
     height: auto;
     padding: 0.75rem;
     background-color: #fff;
 }
 
 footer div.footer div.asan-ett{
-    width: auto;
+    width: 30%;
     height: auto;
-    padding: 0.75rem;
+    padding: 1.25rem;
     background-color: #fff;
 
 }
 
 footer div.footer div.logofooter{
-    border: 1px solid green;
-    /* بردر وعرض ارتفاع رو بعدا بردارم */
-
-    width: 31%;
-    height: 22.9rem;
+    width: 30%;
+    height: auto;
     padding: 1.25rem;
     background-color: #fff;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 div.newsletters form{
