@@ -328,31 +328,38 @@ div.newsletters form input[type="button"]:hover{
     justify-content: center;
     align-items: baseline;
 }
+
 div.list>ul{
     list-style: none;
     min-height: 48px;
-    text-align: right;
+    text-align: center;
     padding: 1rem  4rem;
 }
+
 div.list a{
    text-decoration: none;
    line-height: 2.5;
    align-self: center;
    font-size: 0.8125;
 }
+
 ul.list1 a.f-child{   
     color: #DD2A7B;
 }
+
 ul.list1 a.s-child, ul.list1 a.l-child {   
     color: #3eabee;
 }
+
 ul.list2 a{
      color: rgba(0, 0, 0, .87);;
 }
+
 div.list a:hover{
     background-color: #f5f5f5;
     padding: 10px 20px;
 }
+
 div.list a:active{
     background-color: dimgray;
     transition: 2s cubic-bezier(.25,.8,.5,1);
