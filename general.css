@@ -64,17 +64,17 @@ nav ul.main-menu>li::after {
 .super-header ul.main-menu>li:hover{
     background-color: rgba(77, 75, 75, 0.6);
     height: 3rem;
-    transition: all 3s cubic-bezier(.4,0,.2,1); 
+    transition: all 0.5s cubic-bezier(.4,0,.2,1); 
 }
 
 .super-header a.btn:hover {
     background-color: rgba(77, 75, 75, 0.6);
     height: 3rem;
-    transition: all 3s cubic-bezier(.4,0,.2,1);
+    transition: all 0.5s cubic-bezier(.4,0,.2,1);
 }
 
 button.btn1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 9rem;
     height: 2.4rem;
     padding: 0 0.85rem;
@@ -86,6 +86,13 @@ button.btn1 {
     background-color: transparent;
     font-family: inherit;
 }
+button.btn1 span::after{
+    content: "\f2b5";
+    font-size: 3rem;
+    color: #1976d2;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-weight: bold;
+}
 
 button.btn1:hover {
     background-color: #d0e2f2;
@@ -94,8 +101,7 @@ button.btn1:hover {
 button.btn2,button.btn3{
     width: 12rem;
     height: 2.57rem;
-    padding: 0 0.9rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border-color: transparent;
     outline: 0;
     border-radius: 2rem;
@@ -110,14 +116,6 @@ button.btn2,button.btn3{
     font:normal normal normal 14px/1 FontAwesome;
     color: #ffffff;
     font-size: 1rem;
-    font-weight: bold;
-
-   }
-
-   button.btn3>span::after{
-    content: "\27B2";
-    color: #ffffff;
-    font-size: 1.5rem;
     font-weight: bold;
 
    }
@@ -216,9 +214,6 @@ div.stadium{
     padding: 1.3rem;
     margin: 4.5rem;
     
-    
-
-
 }
 
 footer {
