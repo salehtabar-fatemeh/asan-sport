@@ -2,16 +2,17 @@
     font-family: iran-sans;
     src: url(Font-web/IRANSans\(FaNum\)_Light.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: iran-sans-bold;
     src: url(Font-web/IRANSans\(FaNum\)_Bold.ttf)
 }
 
-:root{
+:root {
     font-size: 16px;
 }
 
-body{
+body {
     font-weight: bold;
     font-family: iran-sans-bold;
 }
@@ -24,11 +25,11 @@ body {
 }
 
 header {
-   background-color: #fff;
-   box-shadow: 0 0 5px gray;
-   position: fixed;
-   top: 0;
-   z-index: 5;
+    background-color: #fff;
+    box-shadow: 0 0 5px gray;
+    position: fixed;
+    top: 0;
+    z-index: 5;
     width: 100%;
 }
 
@@ -36,7 +37,7 @@ header div.super-header {
     height: 3.5rem;
     padding: 0.25rem 1rem;
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
 
 nav .main-menu {
@@ -48,7 +49,8 @@ nav .main-menu {
 
 }
 
-div.super-header a.btn,ul.main-menu a {
+div.super-header a.btn,
+ul.main-menu a {
     text-decoration: none;
     color: rgb(0, 0, 0, 0.87);
     padding: 0 1rem;
@@ -58,19 +60,19 @@ div.super-header a.btn,ul.main-menu a {
 
 nav ul.main-menu>li::after {
     content: "\2B9F";
-   
+
 }
 
-.super-header ul.main-menu>li:hover{
+.super-header ul.main-menu>li:hover {
     background-color: rgba(77, 75, 75, 0.6);
     height: 3rem;
-    transition: all 0.5s cubic-bezier(.4,0,.2,1); 
+    transition: all 0.5s cubic-bezier(.4, 0, .2, 1);
 }
 
 .super-header a.btn:hover {
     background-color: rgba(77, 75, 75, 0.6);
     height: 3rem;
-    transition: all 0.5s cubic-bezier(.4,0,.2,1);
+    transition: all 0.5s cubic-bezier(.4, 0, .2, 1);
 }
 
 button.btn1 {
@@ -86,11 +88,12 @@ button.btn1 {
     background-color: transparent;
     font-family: inherit;
 }
-button.btn1 span::after{
+
+button.btn1 span::after {
     content: "\f2b5";
     font-size: 3rem;
     color: #1976d2;
-    font:normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 14px/1 FontAwesome;
     font-weight: bold;
 }
 
@@ -98,7 +101,8 @@ button.btn1:hover {
     background-color: #d0e2f2;
 }
 
-button.btn2,button.btn3{
+button.btn2,
+button.btn3 {
     width: 12rem;
     height: 2.57rem;
     font-size: 1rem;
@@ -107,52 +111,53 @@ button.btn2,button.btn3{
     border-radius: 2rem;
     color: #ffffff;
     background-color: #1976d2;
-    box-shadow: 0 2px 2px 0px rgba(0,0,0,.14);
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, .14);
     font-family: inherit;
 }
 
-   button.btn2>span::after{
+button.btn2>span::after {
     content: '\f234';
-    font:normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 14px/1 FontAwesome;
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
 
-   }
+}
 
 div.bottom-header {
     height: 6rem;
     display: flex;
 
-    
+
 }
 
-div.anchor{
+div.anchor {
     width: 75%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
-div.anchor a{
+
+div.anchor a {
     text-align: center;
     margin-top: 0.5rem;
-    margin-left: 0.25rem; 
-    margin-right: 0.25rem;  
-    font-size: 1rem; 
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-size: 1rem;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    
+
 
 }
 
-div.inp{
+div.inp {
     width: 25%;
-   
+
 }
 
-div.inp input[type="search"]{
+div.inp input[type="search"] {
     width: 95%;
     height: 2.4rem;
     padding: 0.5rem 0;
@@ -166,17 +171,17 @@ div.inp input[type="search"]{
     line-height: 1.25rem;
 }
 
-div.inp input[type="search"]:focus{
+div.inp input[type="search"]:focus {
     outline: 0.5px solid #1976d2;
 }
 
-div.main-body{
-    border: 1px solid red;
-    background-color:  #f5f5f5;
+div.main-body {
+
+    background-color: #f5f5f5;
     border-color: #f5f5f5;
     width: 100%;
     height: 161rem;
-    max-width: 100%; 
+    max-width: 100%;
     padding: 0.75rem;
     margin-right: auto;
     margin-left: auto;
@@ -195,7 +200,7 @@ div.slid-show {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     margin-top: 0.5rem;
-    background-color: rgb(0, 0, 0,0);
+    background-color: rgb(0, 0, 0, 0);
     background-image: url(assets/picture-slide.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -203,22 +208,23 @@ div.slid-show {
 
 }
 
-div.classes{
+div.classes {
     width: 80%;
     height: auto;
     background-color: #fff;
     border-radius: 0.6rem;
     border-width: thin;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14);
     margin-top: 0.5rem;
     padding: 1.3rem;
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
     margin-left: 20rem;
     margin-right: 10rem;
-    
+
 }
-div.top-bar{
+
+div.top-bar {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     display: flex;
@@ -227,22 +233,24 @@ div.top-bar{
     flex-wrap: wrap;
 }
 
-div.top-bar span{
+div.top-bar span {
     width: 1.68rem;
     height: 3.25rem;
     color: #1976d2;
-    
+
 }
-div.top-bar span.star2{
+
+div.top-bar span.star2 {
     padding-bottom: 1rem;
     margin: 0.25rem;
 }
 
-div.top-bar div.btn4{
+div.top-bar div.btn4 {
     margin: 0 1rem;
     outline: 0;
 }
-div.btn4>button{
+
+div.btn4>button {
     width: 12rem;
     height: 3.25rem;
     padding: 0 1.43rem;
@@ -256,21 +264,24 @@ div.btn4>button{
     min-width: 5.75rem;
 }
 
-div.btn4>button:hover{
+div.btn4>button:hover {
     background-color: #d0e2f2;
-    
-    
+
+
 }
-div.btn4>button:active{
+
+div.btn4>button:active {
     background-color: #96bbdc;
-    transition: all 0.5s cubic-bezier(.4,0,.2,1);
+    transition: all 0.5s cubic-bezier(.4, 0, .2, 1);
 }
-div.top-bar div>hr{
+
+div.top-bar div>hr {
     height: 3.25rem;
     margin: 0 0.75rem;
-    color:rgba(0, 0, 0, .12);
+    color: rgba(0, 0, 0, .12);
 }
-div.top-classes{
+
+div.top-classes {
     display: flex;
     align-items: center;
     height: 3.25rem;
@@ -279,78 +290,91 @@ div.top-classes{
 
 
 }
-div.top-classes a,div.greater-than a {
+
+div.top-classes a,
+div.greater-than a {
     text-decoration: none;
     color: rgb(0, 0, 0, 0.87);
     font-size: 1.2rem;
 }
-div.top-classes:hover{
+
+div.top-classes:hover {
     background-color: rgba(231, 225, 225, 0.925);
     border-radius: 5%;
-    
-    
+
+
 }
-div.top-classes:active{
-  opacity: 0.5;
-  transition: all 0.3 cubic-bezier(.4,0,.6,1);;
+
+div.top-classes:active {
+    opacity: 0.5;
+    transition: all 0.3 cubic-bezier(.4, 0, .6, 1);
+    ;
 }
-div.greater-than{
+
+div.greater-than {
     height: 3rem;
     width: auto;
     padding: 0 1rem;
 }
-div.greater-than span{
+
+div.greater-than span {
     color: rgb(155, 151, 151);
     font-size: 1.3rem;
     font-weight: 500;
-    
+
 }
 
-div.greater-than:hover{
+div.greater-than:hover {
     background-color: rgba(231, 225, 225, 0.925);
     border-radius: 5%;
-    
-}
-div.greater-than:active{
-  opacity: 0.5;
-  transition: all 0.3 cubic-bezier(.4,0,.6,1);;
+
 }
 
-div.main-body div.product{
+div.greater-than:active {
+    opacity: 0.5;
+    transition: all 0.3 cubic-bezier(.4, 0, .6, 1);
+    ;
+}
+
+div.main-body div.product {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding:0.75rem;
+    padding: 1rem;
     flex-wrap: wrap;
-    gap: 12px 12px;
-    border: 1px solid red;
+    gap: 20px 20px;
 }
-div.product1{
+
+div.product1 {
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: 0 6px 18px rgb(0, 0, 0, 0.12);
     min-height: 21.87rem;
     max-width: 25rem;
     background-color: #fff;
-    width: 30%;
+    width: 33%;
     height: auto;
+    padding: 4px;
 }
-div.product1 a{
+
+div.product1 a {
     text-decoration: none;
-    color: rgba(0, 0, 0, .87) ;
+    color: rgba(0, 0, 0, .87);
     font-size: .875rem;
     font-weight: bold;
 }
-div.product1 div.fig1{
+
+div.product1 div.fig1 {
     width: 100%;
     height: 12.5rem;
     background-image: url(assets/imag1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-   
+
 }
-div.online{
+
+div.online {
     font-weight: 100;
     color: #fff;
     line-height: 35px;
@@ -365,7 +389,11 @@ div.online{
 
 
 }
-div.fig1 div.nazar{
+
+div.fig1 div.nazar,
+div.fig3 div.nazar,
+div.fig4 div.nazar,
+div.fig5 div.nazar {
     font-weight: bold;
     background-color: #fff;
     padding: 0.25rem;
@@ -378,45 +406,84 @@ div.fig1 div.nazar{
     border-radius: 3.125rem;
     text-align: center;
     color: #000;
-    
+
 }
-div.nazar span{
+
+div.nazar span {
     color: #f9a825;
     font-size: 1rem;
     font-weight: bold;
 }
 
-div.text1{
+div.text1 {
     padding: 12px;
     line-height: 2rem;
     display: flex;
     align-items: center;
 
 }
-div.text1 hr{
-            height: 5rem;
-            margin: 0 0.75rem;
-            color:rgb(0, 0, 0, 0.12);
-        }
-        div.text1 span{
-            color: rgb(0, 0, 0, 0.7);
-            font-size: 1rem;
-            font-weight: bold;
-        }
-        div.product1 div.fig2{
-            width: 100%;
-            height: 12.5rem;
-            background-image: url(assets/image2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-           
-        }
-    
 
+div.text1 hr {
+    height: 5rem;
+    margin: 0 0.75rem;
+    color: rgb(0, 0, 0, 0.12);
+}
 
+div.text1 span {
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 1rem;
+    font-weight: bold;
+}
 
+div.product1 div.fig2 {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(assets/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
+}
+
+div.product1 div.fig3 {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(assets/imag3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+div.product1 div.fig4 {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(assets/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+div.product1 div.fig5 {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(assets/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+div.product1 div.fig6 {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(assets/image6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
 
 
 footer {
@@ -425,24 +492,24 @@ footer {
     padding: 1.9rem;
     background-color: #fff;
     color: rgba(0, 0, 0, .87);
-   box-shadow: 0 0 0 0 rgba(0,0,0,.14); 
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .14);
     display: flex;
     flex-wrap: wrap;
     font-family: inherit;
 }
 
-footer div.footer{
+footer div.footer {
     width: 100%;
-    border-radius: 0.4rem ;
+    border-radius: 0.4rem;
     height: auto;
     padding: 2rem 2rem;
-    box-shadow: 0 1px 5px  rgba(0,0,0,.12);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .12);
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;
 }
 
-footer div.footer div.newsletters{
+footer div.footer div.newsletters {
     color: rgba(0, 0, 0, .87);
     outline: none;
     text-align: center;
@@ -452,7 +519,7 @@ footer div.footer div.newsletters{
     background-color: #fff;
 }
 
-footer div.footer div.asan-ett{
+footer div.footer div.asan-ett {
     width: 30%;
     height: auto;
     padding: 1.25rem;
@@ -460,7 +527,7 @@ footer div.footer div.asan-ett{
 
 }
 
-footer div.footer div.logofooter{
+footer div.footer div.logofooter {
     width: 30%;
     height: auto;
     padding: 1.25rem;
@@ -472,7 +539,7 @@ footer div.footer div.logofooter{
 
 }
 
-div.newsletters form{
+div.newsletters form {
     width: 100%;
     height: auto;
     display: flex;
@@ -480,7 +547,7 @@ div.newsletters form{
     position: relative;
 }
 
-div.newsletters form input[type="text"]{
+div.newsletters form input[type="text"] {
     height: 1.6rem;
     width: 85%;
     padding: 0.5rem;
@@ -496,16 +563,16 @@ div.newsletters form input[type="text"]{
     font-size: 1rem;
 }
 
-div.newsletters form input[type="button"]{
+div.newsletters form input[type="button"] {
     height: 3.8rem;
     font-size: 0.75rem;
     width: 5.625rem;
     background-color: rgb(0, 113, 189);
     border-radius: 3.125rem;
     color: #fff;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14);
     opacity: 1;
-    transition: opacity 0.4s cubic-bezier(.4,0,.6,1);
+    transition: opacity 0.4s cubic-bezier(.4, 0, .6, 1);
     font-family: inherit;
     text-align: center;
     outline: 0;
@@ -517,50 +584,50 @@ div.newsletters form input[type="button"]{
     font-size: 1rem;
 }
 
-div.newsletters form input[type="button"]:hover{
-    opacity: 0.7;   
+div.newsletters form input[type="button"]:hover {
+    opacity: 0.7;
 }
 
- div.asan-ett div.list{
+div.asan-ett div.list {
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
 
-div.list>ul{
+div.list>ul {
     list-style: none;
     min-height: 48px;
     text-align: center;
-    padding: 1rem  4rem;
+    padding: 1rem 4rem;
 }
 
-div.list a{
-   text-decoration: none;
-   line-height: 2.5;
-   align-self: center;
-   font-size: 0.8125;
+div.list a {
+    text-decoration: none;
+    line-height: 2.5;
+    align-self: center;
+    font-size: 0.8125;
 }
 
-ul.list1 a.f-child{   
+ul.list1 a.f-child {
     color: #DD2A7B;
 }
 
-ul.list1 a.s-child, ul.list1 a.l-child {   
+ul.list1 a.s-child,
+ul.list1 a.l-child {
     color: #3eabee;
 }
 
-ul.list2 a{
-     color: rgba(0, 0, 0, .87);;
+ul.list2 a {
+    color: rgba(0, 0, 0, .87);
+    ;
 }
 
-div.list a:hover{
+div.list a:hover {
     background-color: rgba(231, 225, 225, 0.925);
     padding: 10px 20px;
 }
 
-div.list a:active{
+div.list a:active {
     background-color: dimgray;
-    transition: 2s cubic-bezier(.25,.8,.5,1);
+    transition: 2s cubic-bezier(.25, .8, .5, 1);
 }
-    
-
