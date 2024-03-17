@@ -280,7 +280,7 @@ div.top-classes{
 
 
 }
-div.top-classes a,div.greater-than a{
+div.top-classes a,a.greater-than {
     text-decoration: none;
     color: rgb(0, 0, 0, 0.87);
     font-size: 1.2rem;
@@ -295,28 +295,25 @@ div.top-classes:active{
   opacity: 0.5;
   transition: all 0.3 cubic-bezier(.4,0,.6,1);;
 }
-div.greater-than{
-    height: 3.25rem;
+a.greater-than{
+    height: 3rem;
     width: auto;
     padding: 0 1rem;
-    display: flex;
-    align-items: center;
 }
-div.greater-than>span{
+a.greater-than>span.material-symbols-outlined{
     color: rgb(155, 151, 151);
     font-size: 1.3rem;
     font-weight: 500;
-    display: block;
-    margin-top: 22px;
+    
 }
 
-div.greater-than:hover{
+a.greater-than:hover{
     background-color: rgba(231, 225, 225, 0.925);
     border-radius: 5%;
-    
+    padding-top: 10px;
     
 }
-div.greater-than:active{
+a.greater-than:active{
   opacity: 0.5;
   transition: all 0.3 cubic-bezier(.4,0,.6,1);;
 }
