@@ -218,7 +218,7 @@ div.classes {
     margin-top: 0.5rem;
     padding: 1.3rem;
     margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 2rem;
     margin-left: 20rem;
     margin-right: 10rem;
 
@@ -301,8 +301,6 @@ div.greater-than a {
 div.top-classes:hover {
     background-color: rgba(231, 225, 225, 0.925);
     border-radius: 5%;
-
-
 }
 
 div.top-classes:active {
@@ -492,6 +490,14 @@ div.product1 div.fig6 {
     background-size: cover;
     position: relative;
 
+}
+div.footbal-chaman{
+    width: 100%;
+    height: 200px;
+    background:#f5f5f5 url(assets/slid2-football-chaman.db96de3.jpg) no-repeat center;
+    background-size: contain;
+    margin: 20px;
+    
 }
 
 
