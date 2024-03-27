@@ -21,7 +21,7 @@ body {
 body {
     margin: 0;
     font-family: iran-sans;
-    
+
 }
 
 header {
@@ -47,7 +47,6 @@ nav .main-menu {
     justify-content: center;
     align-items: baseline;
     min-width: 8.75rem;
-
 }
 
 div.super-header a.btn,
@@ -61,7 +60,6 @@ ul.main-menu a {
 
 nav ul.main-menu>li::after {
     content: "\2B9F";
-
 }
 
 .super-header ul.main-menu>li:hover,
@@ -172,7 +170,7 @@ div.inp input[type="search"]:focus {
     outline: 0.5px solid #1976d2;
 }
 
-div.main-body{ 
+div.main-body {
     width: 100%;
     height: auto;
     margin-top: 10rem;
@@ -182,11 +180,11 @@ div.main-body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
-    
+
+
 }
 
-div.main-body div.container{
+div.main-body div.container {
     border: 1px solid yellowgreen;
     width: 41%;
     height: 400px;
@@ -195,12 +193,9 @@ div.main-body div.container{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-   
-
 }
 
-
-div.container button.btn{
+div.container button.btn {
     border: 1px solid rgb(0, 113, 189);
     background-color: #fff;
     border-radius: 5px;
@@ -213,11 +208,12 @@ div.container button.btn{
 
 }
 
-button.btn div.empty{
+button.btn div.empty {
     width: 15%;
     height: 1.56rem;
 }
-button.btn div.log-in{
+
+button.btn div.log-in {
     width: 70%;
     height: 1.56rem;
     font-size: 1rem;
@@ -225,19 +221,113 @@ button.btn div.log-in{
     color: #2196f3;
     font-family: iran-sans-bold;
 }
-button.btn div.icon-expand_more{
+
+button.btn div.icon-expand_more {
     width: 15%;
     height: 1.56rem;
     color: rgb(0, 113, 189);
     transform: rotate(0deg);
 }
-button.btn div.icon-expand_more span{
+
+button.btn div.icon-expand_more span {
     font-size: 2rem;
     font-weight: bold;
 }
-button.btn:active div.icon-expand_more{
+
+button.btn:focus div.icon-expand_more {
     transform: rotate(180deg);
 }
+
+div.form-1 {
+    width: 68%;
+    padding: 0.75rem;
+    /* display: none; */
+}
+
+/* button.btn:focus~div.form-1{
+    display: block
+} */
+
+div.form-1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div.form-1 input[type="text"],
+div.form-1 input[type="password"]{
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: rgba(0, 0, 0, .06);
+    border-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, .7);
+    outline: 0;
+    padding: 0 12px;
+    font-weight: 700;
+    caret-color: rgb(0, 113, 189);
+    border-radius: 0.2rem;
+}
+
+div.form-1 input[type="text"]:hover,
+div.form-1 input[type="password"]:hover {
+    background-color: #d1cfcf;
+}
+
+div.form-1 input[type="text"]:valid,
+div.form-1 input[type="password"]:valid {
+    border-bottom: 2px solid rgb(0, 113, 189);
+}
+
+div.form-1 input[type="text"]:invalid,
+div.form-1 input[type="password"]:invalid {
+    caret-color: #ff5252;
+    border-bottom: 2px solid #ff5252;
+    transition: all 0.5s cubic-bezier(.25,.8,.5,1);
+}
+
+div.form-1 div.massage {
+    color: #ff5252;
+    font-family: inherit;
+    font-size: 0.75rem;
+    line-height: 0.1px;
+    align-self: flex-start;
+    /* display: none; */
+}
+
+/* div.form-1 input:invalid div.form-1 div.massage{
+    display: block;
+} */
+
+div.form-1 p {
+    color: #ff9800;
+    font-size: 1rem;
+    font-family: inherit;
+    align-self: flex-start;
+    font-weight: 300;
+}
+
+div.form-1 input[type="submit"] {
+    width: 70%;
+    height: 2.75rem;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.87rem;
+    font-weight: 500;
+    background-color: #1976d2;
+    padding: 0 1.18rem;
+    border-color: transparent;
+    box-shadow: 0 2px 2px rgba(0,0,0,.14);
+    opacity: 1;
+    border-radius: 0.25rem;
+    transition: opacity .2s cubic-bezier(.4,0,.6,1);
+}
+
+div.form-1 input[type="submit"]:hover{
+    opacity: 0.7;
+}    
 
 
 
