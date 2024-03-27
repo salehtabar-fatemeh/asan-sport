@@ -283,16 +283,15 @@ div.form-1 input[type="password"]:valid {
 
 div.form-1 input[type="text"]:invalid,
 div.form-1 input[type="password"]:invalid {
-    caret-color: #ff5252;
-    border-bottom: 2px solid #ff5252;
+    caret-color: #fa3131;
+    border-bottom: 2px solid #fa3131;
     transition: all 0.5s cubic-bezier(.25,.8,.5,1);
 }
 
 div.form-1 div.massage {
-    color: #ff5252;
+    color: #fa3131;
     font-family: inherit;
     font-size: 0.75rem;
-    line-height: 0.1px;
     align-self: flex-start;
     /* display: none; */
 }
@@ -307,6 +306,7 @@ div.form-1 p {
     font-family: inherit;
     align-self: flex-start;
     font-weight: 300;
+    li
 }
 
 div.form-1 input[type="submit"] {
