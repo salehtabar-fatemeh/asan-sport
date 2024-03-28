@@ -187,7 +187,7 @@ div.main-body {
 div.main-body div.container {
     border: 1px solid yellowgreen;
     width: 41%;
-    height: 400px;
+    height: auto;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -248,7 +248,7 @@ div.form-1 {
     display: block
 } */
 
-div.form-1 form {
+div.form-1 form,div.form-2 form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,7 +288,7 @@ div.form-1 input[type="password"]:invalid {
     transition: all 0.5s cubic-bezier(.25,.8,.5,1);
 }
 
-div.form-1 div.massage {
+div.container div.massage, div.container div.character {
     color: #fa3131;
     font-family: inherit;
     font-size: 0.75rem;
@@ -306,18 +306,18 @@ div.form-1 p {
     font-family: inherit;
     align-self: flex-start;
     font-weight: 300;
-    li
+    line-height: 0.75rem;
 }
 
-div.form-1 input[type="submit"] {
+div.container input[type="submit"] {
     width: 70%;
     height: 2.75rem;
     color: #fff;
     font-family: inherit;
     font-size: 0.87rem;
-    font-weight: 500;
+    font-weight: bold;
     background-color: #1976d2;
-    padding: 0 1.18rem;
+    padding: 0  1.18rem;
     border-color: transparent;
     box-shadow: 0 2px 2px rgba(0,0,0,.14);
     opacity: 1;
@@ -325,10 +325,124 @@ div.form-1 input[type="submit"] {
     transition: opacity .2s cubic-bezier(.4,0,.6,1);
 }
 
-div.form-1 input[type="submit"]:hover{
+div.container input[type="submit"]:hover{
     opacity: 0.7;
-}    
+}
 
+div.form-2,div.form-3{
+    width: 78%;
+    padding: 0.75rem;
+}
+
+div.form-2 input[type="text"],
+div.form-2 input[type="password"]{
+    width: 100%;
+    height: 2.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 2;
+    border: 1px solid rgba(0, 0, 0, .38);
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 0.25rem;
+} 
+
+div.form-2 input[type="text"]:hover,
+div.form-2 input[type="password"]:hover{
+    border:1px solid rgb(0, 0, 0, 0.87)
+} 
+
+div.form-2 input[type="text"]:valid,
+div.form-2 input[type="password"]:valid{
+    border: 2px solid #1976d2;
+    caret-color: #1976d2;
+} 
+
+div.form-2 input[type="text"]:invalid,
+div.form-2 input[type="password"]:invalid{
+    border: 2px solid #fa3131;
+    caret-color: #fa3131;
+} 
+
+div.form-2 div.check{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+ input [type="checkbox"],label{
+    color: rgba(0, 0, 0, .6);
+    font-size: 1rem;
+    font-family: inherit;
+  
+}
+
+div.form-2 input[type="submit"]{
+    width: 100%;
+}
+div.form-3 input{
+    width: 100%;
+    height: 2.5rem;
+    border-color: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.47);
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+div.form-3 input:hover{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.97);
+}
+div.retrieval{
+    margin-top: 1rem;
+}
+
+button.retrieval-1{
+background-color: transparent;
+border: transparent;
+}
+
+div.form-3 div.retrieval button.register-1>a{
+    text-decoration: none;
+    font-family:  iran-sans;
+    font-size: 0.875rem;
+    color: #2196f3;
+    font-weight: bold;
+  
+}
+
+button.retrieval-1:hover{
+    width: 8.125rem;
+    height: 2.25rem;
+    background-color: #d5e8f8;
+}
+
+button.retrieval-2{
+    background-color: #1976d2;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    opacity: 1;
+register    height: 2.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2);
+    
+
+}
+button.retrieval-2:hover{
+    opacity: 0.8;
+    transition: opacity .2s cubic-bezier(.4,0,.2,1);
+}
+
+div.form-3 button.retrieval-2>a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-family:  iran-sans;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
 
 
 footer {
