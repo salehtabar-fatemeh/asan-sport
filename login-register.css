@@ -164,10 +164,15 @@ div.inp input[type="search"] {
     font-family: inherit;
     margin-top: 2rem;
     line-height: 1.25rem;
+    caret-color: #1976d2;
 }
 
 div.inp input[type="search"]:focus {
     outline: 0.5px solid #1976d2;
+}
+div.inp input[type="search"]:invalid{
+    padding: 0.5rem;
+    caret-color: red;
 }
 
 div.main-body {
@@ -512,6 +517,10 @@ div.newsletters form input[type="text"] {
     border-radius: 3.125rem;
     outline: 0;
     font-size: 1rem;
+    caret-color: #1976d2;
+}
+div.newsletters form input[type="text"]:invalid{
+    caret-color: red;
 }
 
 div.newsletters form input[type="button"] {
