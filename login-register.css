@@ -183,7 +183,6 @@ div.main-body {
 }
 
 div.main-body div.container {
-    border: 1px solid yellowgreen;
     width: 41%;
     height: auto;
     margin-bottom: 2.5rem;
@@ -398,10 +397,10 @@ div.retrieval{
 
 button.retrieval-1{
 background-color: transparent;
-border: transparent;
+border-color: transparent;
 }
 
-div.form-3 div.retrieval button.register-1>a{
+div.form-3 div.retrieval button.retrieval-1>a{
     text-decoration: none;
     font-family:  iran-sans;
     font-size: 0.875rem;
