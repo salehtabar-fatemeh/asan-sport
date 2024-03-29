@@ -246,9 +246,9 @@ div.form-1 {
     /* display: none; */
 }
 
-/* button.btn:focus~div.form-1{
+button.btn:focus~div.form-1{
     display: block
-} */
+}
 
 div.form-1 form,div.form-2 form {
     display: flex;
