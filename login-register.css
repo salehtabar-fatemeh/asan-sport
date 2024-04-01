@@ -13,15 +13,9 @@
 }
 
 body {
-    font-weight: bold;
-    font-family: iran-sans-bold;
-    background-color: #fff;
-}
-
-body {
     margin: 0;
     font-family: iran-sans;
-
+    background-color: #fff;
 }
 
 header {
@@ -47,8 +41,6 @@ nav ul.main-menu {
     justify-content: center;
     align-items: baseline;
     min-width: 8.75rem;
-    position: relative;
-
 }
 
 nav ul.main-menu li>ul{
@@ -65,12 +57,12 @@ nav ul.main-menu li>ul{
 }
 nav ul.main-menu>li,ul.sub-menu2>li{
     line-height: 2.5;
-
+    white-space: nowrap;
 }
 
 nav ul.main-menu li>ul a,i{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: inherit;
     color: #fff;
 }
@@ -83,7 +75,6 @@ nav ul.main-menu ul>li:hover{
 nav ul.main-menu>li:hover ul{
     display: block;
     position: absolute;
-    left: auto;
 }
 ul.main-menu ul>li ul.sub-menu2{
     list-style: none;
@@ -109,7 +100,7 @@ ul.main-menu a {
     color: rgb(0, 0, 0, 0.87);
     padding: 0 1rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 nav ul.main-menu>li::after {
@@ -131,7 +122,7 @@ ul.main-menu a:active {
 
 button.btn1 {
     font-size: 1rem;
-    width: 9rem;
+    white-space: nowrap;
     height: 2.4rem;
     padding: 0 0.85rem;
     margin: 0 0.57rem;
@@ -157,7 +148,7 @@ button.btn1:hover {
 
 button.btn2,
 button.btn3 {
-    width: 12rem;
+    white-space: nowrap;
     height: 2.57rem;
     font-size: 1rem;
     border-color: transparent;
@@ -275,14 +266,13 @@ button.btn div.log-in {
     font-size: 1rem;
     font-weight: bold;
     color: #2196f3;
-    font-family: iran-sans-bold;
+    font-family: iran-sans;
 }
 
 button.btn div.icon-expand_more {
     width: 15%;
     height: 1.56rem;
     color: rgb(0, 113, 189);
-    transform: rotate(0deg);
 }
 
 button.btn div.icon-expand_more span {
@@ -290,19 +280,10 @@ button.btn div.icon-expand_more span {
     font-weight: bold;
 }
 
-button.btn:focus div.icon-expand_more {
-    transform: rotate(180deg);
-}
-
 div.form-1 {
     width: 68%;
     padding: 0.75rem;
-    /* display: none; */
 }
-
-/* button.btn:focus~div.form-1{
-    display: block
-} */
 
 div.form-1 form,div.form-2 form {
     display: flex;
@@ -325,6 +306,7 @@ div.form-1 input[type="password"]{
     font-weight: 700;
     caret-color: rgb(0, 113, 189);
     border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
 }
 
 div.form-1 input[type="text"]:hover,
@@ -343,18 +325,6 @@ div.form-1 input[type="password"]:invalid {
     border-bottom: 2px solid #fa3131;
     transition: all 0.5s cubic-bezier(.25,.8,.5,1);
 }
-
-div.container div.massage, div.container div.character {
-    color: #fa3131;
-    font-family: inherit;
-    font-size: 0.75rem;
-    align-self: flex-start;
-    /* display: none; */
-}
-
-/* div.form-1 input:invalid div.form-1 div.massage{
-    display: block;
-} */
 
 div.form-1 p {
     color: #ff9800;
@@ -388,6 +358,7 @@ div.container input[type="submit"]:hover{
 div.form-2,div.form-3{
     width: 78%;
     padding: 0.75rem;
+    display: none;
 }
 
 div.form-2 input[type="text"],
@@ -401,6 +372,7 @@ div.form-2 input[type="password"]{
     font-family: inherit;
     font-weight: 700;
     border-radius: 0.25rem;
+    margin-bottom: 0.8rem;
 } 
 
 div.form-2 input[type="text"]:hover,
@@ -430,7 +402,8 @@ div.form-2 div.check{
     color: rgba(0, 0, 0, .6);
     font-size: 1rem;
     font-family: inherit;
-  
+    font-weight: 700;
+
 }
 
 div.form-2 input[type="submit"]{
@@ -606,6 +579,7 @@ div.asan-ett div.list {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    font-weight: bold;
 }
 
 div.list>ul {
