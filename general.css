@@ -40,17 +40,18 @@ header div.super-header {
     align-items: center;
 }
 
-nav .main-menu {
+nav ul.main-menu {
     list-style: none;
     display: inline-flex;
     justify-content: center;
     align-items: baseline;
     min-width: 8.75rem;
+    position: relative;
 
 }
 
 nav ul.main-menu li>ul{
-    width: 12.43rem;
+    white-space: nowrap;
     height: auto;
     list-style: none;
     display: none;
@@ -59,15 +60,18 @@ nav ul.main-menu li>ul{
     box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
     border-radius: 4px;
     border-color: transparent;
-    padding: 1rem 0;
+    padding: 1rem ;
+}
+nav ul.main-menu>li,ul.sub-menu2>li{
+    line-height: 2.5;
+
 }
 
-nav ul.main-menu li>ul a,ul.main-menu span{
+nav ul.main-menu li>ul a,i{
     text-decoration: none;
     font-size: 1rem;
     font-family: inherit;
     color: #fff;
-    line-height: 2; 
 }
 
 nav ul.main-menu ul>li:hover{
@@ -78,23 +82,25 @@ nav ul.main-menu ul>li:hover{
 nav ul.main-menu>li:hover ul{
     display: block;
     position: absolute;
-    z-index: 4;
+    left: auto;
 }
 ul.main-menu ul>li ul.sub-menu2{
     list-style: none;
     display: none;
-    width: 18rem;
+    white-space: nowrap;
     height: auto;
+    
 }
+ul.sub-menu2>li{
+    border-bottom: 2px solid #96bbdc;
+}
+
 ul.main-menu ul>li:hover ul.sub-menu2{
     display: block;
     position: absolute;
-    top: 60px;
-    right: 12rem;
-    z-index: 5;
+    top: 1rem;
+    right: 11rem;
 }
-
-
 
 div.super-header a.btn,
 ul.main-menu a {
