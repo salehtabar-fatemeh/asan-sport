@@ -94,13 +94,24 @@ ul.main-menu ul>li:hover ul.sub-menu2{
     right: 11rem;
 }
 
-div.super-header a.btn,
 ul.main-menu a {
     text-decoration: none;
     color: rgb(0, 0, 0, 0.87);
-    padding: 0 1rem;
     font-weight: bold;
     font-size: 0.9rem;
+    margin: 0.5rem;
+    margin-top: 0;
+}
+
+div.super-header button.btn{
+    color: rgb(0, 0, 0, 0.87);
+    font-weight: bold;
+    font-size: 0.9rem;
+    font-family: inherit;
+    margin: 0.4rem;
+    margin-top: 0;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 nav ul.main-menu>li::after {
@@ -108,15 +119,15 @@ nav ul.main-menu>li::after {
 }
 
 .super-header ul.main-menu>li:hover,
-.super-header a.btn:hover {
+.super-header button.btn:hover {
     background-color: rgb(218, 214, 214);
     height: 3rem;
 }
 
-div.super-header a.btn:active,
-ul.main-menu a:active {
+div.super-header button.btn:active,
+ul.main-menu>li:active {
     background-color: rgba(94, 93, 93, 0.763);
-    opacity: 0.6;
+    opacity: 0.8;
     transition: all 0.28s cubic-bezier(.4, 0, .2, 1);
 }
 
