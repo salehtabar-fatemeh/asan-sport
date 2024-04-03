@@ -41,6 +41,12 @@ nav ul.main-menu {
     justify-content: center;
     align-items: baseline;
     min-width: 8.75rem;
+    margin-left: 0.5rem;
+}
+
+ul.main-menu>li{
+    margin: 0.8rem;
+    margin-top: 0;
 }
 
 nav ul.main-menu li>ul{
@@ -100,7 +106,7 @@ ul.main-menu a {
     font-weight: bold;
     font-size: 0.9rem;
     margin: 0.5rem;
-    margin-top: 0;
+
 }
 
 div.super-header button.btn{
@@ -143,6 +149,7 @@ button.btn1 {
     border-radius: 2rem;
     background-color: transparent;
     font-family: inherit;
+    margin-right: 9rem;
 }
 
 button.btn1 span::after {
