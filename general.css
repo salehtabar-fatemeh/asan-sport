@@ -316,7 +316,7 @@ div.btn4>button {
     color: #1976d2;
     font-weight: bold;
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color: transparent;
     min-width: 5.75rem;
 }
@@ -344,45 +344,39 @@ div.top-classes {
     padding: 0 1.43rem;
 }
 
-div.top-classes a,
-div.greater-than a {
+div.top-classes a {
     text-decoration: none;
-    color: rgb(0, 0, 0, 0.87);
-    font-size: 1.2rem;
+    color: rgb(0, 0, 0,0.87);
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
-div.top-classes:hover {
+div.top-classes:hover,div.greater-than:hover {
     background-color: rgba(231, 225, 225, 0.925);
     border-radius: 5%;
 }
 
-div.top-classes:active {
-    opacity: 0.5;
+div.top-classes:active,div.greater-than:active{
+    opacity: 0.7;
     transition: all 0.3 cubic-bezier(.4, 0, .6, 1);
 }
 
-div.greater-than {
-    height: 3rem;
-    width: auto;
-    padding: 0 1rem;
+div.greater-than button{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(0, 0, 0,.87);
+    height: 2.5rem;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 div.greater-than span {
     color: rgb(155, 151, 151);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
 
-}
-
-div.greater-than:hover {
-    background-color: rgba(231, 225, 225, 0.925);
-    border-radius: 5%;
-
-}
-
-div.greater-than:active {
-    opacity: 0.5;
-    transition: all 0.3 cubic-bezier(.4, 0, .6, 1);
 }
 
 div.main-body div.product {
